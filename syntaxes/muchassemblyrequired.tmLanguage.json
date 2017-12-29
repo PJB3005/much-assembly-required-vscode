@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Much Assembly Required",
+	"patterns": [
+		{
+			"name": "comment.line.muchassemblyrequired",
+			"match": ";.*$"
+		},
+		{
+			"name": "entity.name.function.muchassemblyrequired",
+			"match": "^\\s*(?i)[a-z_]+:"
+		},
+		{
+			"name": "support.function.directive.muchassemblyrequired",
+			"match": "^\\s*\\.(text|data)\\b"
+		},
+		{
+			"name": "string.quoted.single.muchassemblyrequired",
+			"begin": "'",
+			"end": "'"
+		},
+		{
+			"name": "string.quoted.double.muchassemblyrequired",
+			"begin": "\"",
+			"end": "\""
+		},
+		{
+			"name": "variable.predefined.muchassemblyrequired",
+			"match": "(?i)\\b(brk|dup)\\b"
+		},
+		{
+			"name": "keyword.control.muchassemblyrequired",
+			"match": "(?i)\\b(dw|equ|call|hwi|jg|jge|jl|jle|jmp|jns|jnz|jz|ret)\\b"
+		},
+		{
+			"name": "keyword.function.muchassemblyrequired",
+			"match": "(?i)\\b(sar|add|and|cmp|div|hwq|mov|mul|neg|nop|not|or|pop|push|shl|shr|sub|test|xchg|xor)\\b"
+		},
+		{
+			"name": "constant.character.hexadecimal.muchassemblyrequired",
+			"match": "\\b(?i)0x[0-9a-f]+\\b"
+		},
+		{
+			"name": "constant.character.decimal.muchassemblyrequired",
+			"match": "\\b[0-9]+\\b"
+		},
+		{
+			"name": "variable.register.muchassemblyrequired",
+			"match": "\\b(?i)([abcdxy]|bp|sp|ip|flags)\\b"
+		},
+		{
+			"name": "constant.other.muchassemblyrequired",
+			"match": "\\b(?i)[a-z_]+\\b"
+		}
+	],
+	"scopeName": "source.mar"
+}
