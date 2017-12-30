@@ -17,12 +17,22 @@
 		{
 			"name": "string.quoted.single.muchassemblyrequired",
 			"begin": "'",
-			"end": "'"
+			"end": "'",
+			"patterns": [
+				{
+					"include": "#string_escape_char"
+				}
+			]
 		},
 		{
 			"name": "string.quoted.double.muchassemblyrequired",
 			"begin": "\"",
-			"end": "\""
+			"end": "\"",
+			"patterns": [
+				{
+					"include": "#string_escape_char"
+				}
+			]
 		},
 		{
 			"name": "variable.predefined.muchassemblyrequired",
@@ -53,5 +63,19 @@
 			"match": "\\b(?i)[a-z_]+\\b"
 		}
 	],
+	"repository": {
+		"string_escape_char": {
+			"patterns": [
+				{
+					"name": "constant.character.escape.muchassemblyrequired",
+					"match": "\\\\[\\\\\"]"
+				},
+				{
+					"name": "invalid.illegal.unknown-escape.muchassemblyrequired",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
 	"scopeName": "source.mar"
 }

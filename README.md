@@ -18,6 +18,10 @@ This VSCode extension adds basic language functionality for the 8086-like langua
 
 ## Release Notes
 
+### 0.1.3
+
+* Added support for strings.
+
 ### 0.1.2
 
 * Made the linter not trigger on non-`.mar` files.

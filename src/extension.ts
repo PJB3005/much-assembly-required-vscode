@@ -35,8 +35,6 @@ class MuchAssemblyRequiredProvider implements vscode.DefinitionProvider, vscode.
         this.diagnosticCollection.delete(e.uri);
     }
 
-    // Adapted from here:
-    // https://github.com/simon987/Much-Assembly-Required-Frontend/blob/master/mar/editor.js
     private DoLint(textDocument: vscode.TextDocument) {
         if (textDocument.languageId !== "muchassemblyrequired") {
             return;

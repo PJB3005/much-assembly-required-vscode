@@ -5,6 +5,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.3] 2017-12-30
+- Updated the linter and added support for strings.
+
 ## [0.1.2] 2017-12-30
 - Made the linter not trigger on non-`.mar` files.
 
