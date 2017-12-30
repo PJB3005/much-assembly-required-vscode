@@ -40,7 +40,7 @@
 		},
 		{
 			"name": "keyword.control.muchassemblyrequired",
-			"match": "(?i)\\b(dw|equ|call|hwi|jg|jge|jl|jle|jmp|jns|jnz|jz|ret)\\b"
+			"match": "(?i)\\b(dw|equ|call|hwi|jg|jge|jl|jle|jmp|jns|jnz|jz|jo|jno|ret)\\b"
 		},
 		{
 			"name": "keyword.function.muchassemblyrequired",
