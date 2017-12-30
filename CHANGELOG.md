@@ -5,6 +5,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.4] 2017-12-30
+- Added support for the `JNO` and `JO` instructions. 
+
 ## [0.1.3] 2017-12-30
 - Updated the linter and added support for strings.
 
