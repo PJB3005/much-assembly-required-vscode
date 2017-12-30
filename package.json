@@ -57,5 +57,8 @@
     "main": "./out/extension",
     "activationEvents": [
         "onLanguage:muchassemblyrequired"
+    ],
+    "keywords": [
+        "mar"
     ]
 }
