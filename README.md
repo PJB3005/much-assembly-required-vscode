@@ -18,6 +18,10 @@ This VSCode extension adds basic language functionality for the 8086-like langua
 
 ## Release Notes
 
+### 0.1.5
+
+* Added support for the `INC` and `DEC` instructions.
+
 ### 0.1.4
 
 * Added support for the `JNO` and `JO` instructions.

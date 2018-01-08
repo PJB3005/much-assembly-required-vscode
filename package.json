@@ -2,7 +2,7 @@
     "name": "much-assembly-required-language-support",
     "displayName": "Much Assembly Required Language Support",
     "description": "Adds highlighting for 8086-dialect of the programming game \"Much Assembly Required\"",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "publisher": "PJB3005",
     "repository": {
         "url": "https://github.com/PJB3005/much-assembly-required-vscode.git",
