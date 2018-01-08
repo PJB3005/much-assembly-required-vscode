@@ -44,7 +44,7 @@
 		},
 		{
 			"name": "keyword.function.muchassemblyrequired",
-			"match": "(?i)\\b(sar|add|and|cmp|div|hwq|mov|mul|neg|nop|not|or|pop|push|shl|shr|sub|test|xchg|xor)\\b"
+			"match": "(?i)\\b(sar|add|and|cmp|div|hwq|mov|mul|neg|nop|not|or|pop|push|shl|shr|sub|test|xchg|xor|inc|dec)\\b"
 		},
 		{
 			"name": "constant.character.hexadecimal.muchassemblyrequired",
